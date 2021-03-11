@@ -1,0 +1,12 @@
+## Auto LF line endings for source files.
+[attr]srcfile text eol=lf
+*.c srcfile
+*.h srcfile
+makefile srcfile
+
+## Documentation files
+*.txt text
+*.md text
+
+## Everything else
+* text=auto
